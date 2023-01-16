@@ -9,28 +9,31 @@
 </head>
 <body>
     <header>
-        <div class="header__inner">
-            <a href="#">Кто я ?</a>
-            <a href="#">Что умею</a>
-            <a href="#">Мои увлечения</a>
-            <a href="#">Кто это?</a>
+        <div class="container">
+            <nav class="menu">
+                <a href="#me">Кто я ?</a>
+                <a href="#job">Что умею</a>
+                <a href="#intresting">Мои увлечения</a>
+                <a href="#what">Кто это?</a>
+            </nav>
         </div>
+        
     </header>
     <main>
         <div class="container"> <!--Класс некорректен-->
-            <h1 class="title_name">Мастерова Полина Димоновна</h1>
+            <h1 class="title__name">Мастерова Полина Димоновна</h1>
             <div class="titele_img">
               <img src="./img/polly.jpg" alt="Свирепый замбр">
             </div>
             <div class="content"> <!--Кто я ?-->
-                <h2>Кто я?</h2>
-                <p>
+                <h2 class="content__title">Кто я?</h2>
+                <p class="content__text">
                     Меня зовут Полина и живу уже 23 года.Родилась в городе Тихвин, ЛО.
                     Так же как и все окончила школу, но пошла в колледж на звукорежиссера, а после на шута горохового))))))) 
                 </p>
             </div> <!--/Кто я ?-->
             <div class="content"> <!--Что умею?-->
-                <h2>Что умею?</h2>
+                <h2 class="content__title">Что умею?</h2>
                 <ul>
                     <li>Заколачивать гвозди</li>
                     <li>Записывать и обрабатывать звук</li>
@@ -39,12 +42,16 @@
                 </ul>
             </div> <!--/Что умею?-->
             <div class="content">
-                <h2>Мои увлечения</h2>
-                <p>
-                    
+                <h2 class="content__title">Мои увлечения</h2>
+                <p class="content__text">
+                    Как человек просто,читаю книги, иногда снимаю на пленку и учусь программировать. 
+                    По вечерам смотрю фильмы,мультфильмы и видео на интересующие темы.
                 </p>
             </div>
         </div>
     </main>
+    <footer>
+        
+    </footer>
 </body>
 </html>
