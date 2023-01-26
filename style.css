@@ -33,8 +33,8 @@ header {
     display: flex;
     justify-content:center;
     background-color: rgb(144, 144, 187);
-    padding: 10px 10px ;
-    margin: 10px 10px ; 
+    padding: 15px 10px 15px 10px;
+    margin: 10px 10px 10px 10 pxs; 
     border: 5px solid;
     border-color: rgb(246, 147, 255);
     
@@ -54,14 +54,29 @@ header {
     
 }
 
+/*Кажется сделала лютый кринж с этими рамками,
+стоит сделать чтобы при наводе менялся цвет */
 .link {
     text-decoration: none;
-
+    text-align: center;
+    padding: 5px;
+    border: 1.5px solid;
+    border-color: rgb(36, 230, 236);
     
 }
 
 /*main*/
 .container {
+    max-width: 1200px;
 
 }
- /*Класс,распределение блоков/
+ /*Класс,распределение блоков? 
+ разделить блоки */
+
+ .content {
+    width: 100%;
+    font-size:25px;px;
+    border: 3px solid ;
+    background-color: rgb(116, 186, 207);
+    padding: 5px;
+ } 
