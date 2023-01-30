@@ -23,7 +23,7 @@ body {
     font-size: 20px;
     position: relative;
     line-height: 1.4;
-    color: rgb(2, 44, 39);
+    color: rgb(1, 17, 15);
     
 }
 
@@ -34,7 +34,7 @@ header {
     justify-content:center;
     background-color: rgb(144, 144, 187);
     padding: 15px 10px 15px 10px;
-    margin: 10px 10px 10px 10 pxs; 
+    margin: 10px 10px 10px 10 px; 
     border: 5px solid;
     border-color: rgb(246, 147, 255);
     
@@ -68,15 +68,25 @@ header {
 /*main*/
 .container {
     max-width: 1200px;
+    
+}
 
+.content__img {
+    display: flex;
+    justify-content: center;
+    border: 5px ridge rgba(50, 53, 220, 0.452);  
+        
 }
  /*Класс,распределение блоков? 
  разделить блоки */
 
  .content {
-    width: 100%;
-    font-size:25px;px;
-    border: 3px solid ;
-    background-color: rgb(116, 186, 207);
+    font-size:25px;
+    background-color: rgba(145, 73, 145, 0.5);
     padding: 5px;
  } 
+ 
+ .content__text {
+    width: 100%;
+    border: 5px ridge rgba(50, 53, 220, 0.5); 
+ }
